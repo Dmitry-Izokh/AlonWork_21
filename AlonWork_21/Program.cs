@@ -16,7 +16,7 @@ namespace AlonWork_21
 
         const int a = 5;
         const int b = 5;
-        int[,] path = new int[a, b];
+        static int[,] path = new int[a, b];
         
 
         static void Main(string[] args)
@@ -41,7 +41,7 @@ namespace AlonWork_21
 
             // ВАРИАНТ 2
 
-            int[,] path = new int[a, b];
+            //int[,] path = new int[a, b];
             Random random = new Random();
             for (int i = 0; i < a; i++)
             {
